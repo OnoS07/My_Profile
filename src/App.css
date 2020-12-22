@@ -20,6 +20,19 @@ header{
     top: 0;
 }
 
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 #top{
     margin-top: 80px;
     width: 100%;
@@ -40,6 +53,15 @@ header{
     list-style: none;
     margin-left: 80px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+.nav-item:hover {
+    color: blanchedalmond;
+}
+
+a {
+    text-decoration: none;
 }
 
 .section{
@@ -51,4 +73,5 @@ header{
 .title{
     border-bottom: 2px solid black;
     margin: 40px 700px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
