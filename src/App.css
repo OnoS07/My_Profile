@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+ }
+ 
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #e6e6e6;
+ }
+
+header{
+    width: 100%;
+    height: 80px;
+    padding: 0 50px 10px 50px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#top{
+    margin-top: 80px;
+    width: 100%;
+    height: 400px;
+    background-color: aliceblue;
+}
+
+.nav-bar{
+    display: flex;
+    margin: 0 0 0 auto;
+}
+
+.nav-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav-item{
+    list-style: none;
+    margin-left: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+.nav-item:hover {
+    color: blanchedalmond;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section{
+    height: 500px;
+    width: 100%;;
+    text-align: center;
+}
+
+.title{
+    border-bottom: 2px solid black;
+    margin: 0 700px;
+    padding-top: 30px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#about{
+    background-color:cornsilk;
+}
+
+.about-contents{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 200px;
+}
+
+.about-contents h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
