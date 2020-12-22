@@ -3,7 +3,7 @@ import Title from './Title.js';
 
 function Contact(props){
     return(
-        <div className = "section">
+        <div className = "section" id = "contact">
             <Title title = "Contact" />
         </div>
     )
