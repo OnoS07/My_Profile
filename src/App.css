@@ -26,3 +26,14 @@ header{
     list-style: none;
     margin-left: 80px;
 }
+
+.section{
+    height: 300px;
+    width: 100%;;
+    text-align: center;
+}
+
+.title{
+    border-bottom: 2px solid black;
+    margin: 40px 700px;
+}
