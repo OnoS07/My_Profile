@@ -65,9 +65,9 @@ a {
 }
 
 .section{
-    height: 500px;
     width: 100%;;
     text-align: center;
+    padding: 50px 0;
 }
 
 .title{
@@ -81,7 +81,11 @@ a {
     background-color:cornsilk;
 }
 
-.about-contents{
+#work{
+    background-color:cornsilk;
+}
+
+.contents{
     display: flex;
     justify-content: space-around;
     margin: 50px 200px;
@@ -89,4 +93,18 @@ a {
 
 .about-contents h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.skill-contents{
+    flex-wrap: wrap;
+}
+
+.skill-content{
+    margin: 0 50px 50px 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.skill-image{
+    height: 80px;
+    width: 80px;
 }
