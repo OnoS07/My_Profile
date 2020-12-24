@@ -108,7 +108,12 @@ a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.skill-image{
+.image{
     height: 80px;
     width: 80px;
+}
+
+.contact-content{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 200px;
 }
