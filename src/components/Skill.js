@@ -47,7 +47,7 @@ function Skill(props){
                 {
                     SkillItems.map(item => (
                         <div className = "skill-content">
-                            <item.image className="skill-image" /><br />
+                            <item.image className="image" /><br />
                             <span>{item.name}</span><br />
                             <span>{item.raty}</span>
                         </div>
