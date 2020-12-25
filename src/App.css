@@ -68,7 +68,7 @@ a {
 #top{
     margin-top: 80px;
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-color: white;
 }
 
@@ -83,19 +83,18 @@ a {
     object-fit: cover;
     object-position: 0 -40px; 
     width: 100%;
-    height: 500px;
-    padding: 0 200px;
-    
+    height: 600px;
+    padding: 10px 200px;
 }
 
-
-
 .top-image-text{
-    font-size: 70px;
+    font-size: 60px;
     color: white;
     font-family: impact;
-    margin-bottom: 50px;;
+    margin-bottom: 380px;
+    margin-left: 700px;
     position: absolute;
+    border-bottom: 2px solid white;
 }
 
 .section{
