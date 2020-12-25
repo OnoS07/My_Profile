@@ -5,10 +5,10 @@ import CakeIcon from '@material-ui/icons/Cake';
 import SchoolIcon from '@material-ui/icons/School';
 import WorkIcon from '@material-ui/icons/Work';
 
-const NameIcon = <AccountCircleIcon />
-const BirthIcon = <CakeIcon />
-const UnivIcon = <SchoolIcon />
-const CareerIcon = <WorkIcon />
+const NameIcon = <AccountCircleIcon fontSize= "large" />
+const BirthIcon = <CakeIcon fontSize= "large" />
+const UnivIcon = <SchoolIcon fontSize= "large" />
+const CareerIcon = <WorkIcon fontSize= "large" />
 
 const AboutItems = [
     {title: "Name", text: "Soichiro Ono", icon: NameIcon },

@@ -2,11 +2,12 @@ import React from 'react';
 import Title from './Title.js';
 import Delitable from '../images/delitable.png';
 import Profile from '../images/profile.png';
-import DoubleArrowIcon from '@material-ui/icons/DoubleArrow';
+
+import Button from '@material-ui/core/Button';
 
 const WorkItems = [
-    {title: "Delitable", skill: "Ruby on Rails", image: Delitable},
-    {title: "Profile", skill: "React", image: Profile}
+    {title: "Delitable", skill: "Ruby on Rails", image: Delitable, web: "http://delitable.work/", git:"https://github.com/OnoS07/Delitable"},
+    {title: "Profile", skill: "React", image: Profile, web:"https://elastic-ride-866e1b.netlify.app/", git: "https://github.com/OnoS07/Profile-site"}
 ]
 
 function Work(props){
@@ -17,9 +18,13 @@ function Work(props){
                     {
                         WorkItems.map(item => (
                             <div className = "work-content">
-                                <img  src={item.image} className = "work-image" />
+                                <img  src={item.image} className = "work-image"/>
                                 <h2>{item.title}</h2>
-                                <span>Skill：{item.skill}</span>
+                                <span>Skill：{item.skill}</span><br />
+                                <div className = "button-contents">
+                                    <Button variant="contained" color="secondary" href= {item.web}>Web</Button>
+                                    <Button variant="contained" color="primary" href= {item.git}>Github</Button>
+                                </div>
                             </div>
                         ))
                     }
