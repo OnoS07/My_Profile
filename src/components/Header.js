@@ -1,10 +1,11 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import HeaderTop from '../images/header-top.png';
 
 function Header(props){
     return(
         <header>
-            <h1 className = "nav-title" >Profile</h1>
+            <img  src= {HeaderTop} className= "header-image" />
             <ul className = "nav-bar">
                 <AnchorLink offset = "100" href = "#top">
                     <li className = "nav-item">Top</li>
