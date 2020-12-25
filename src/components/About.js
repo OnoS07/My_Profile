@@ -4,11 +4,16 @@ import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import CakeIcon from '@material-ui/icons/Cake';
 import SchoolIcon from '@material-ui/icons/School';
 import WorkIcon from '@material-ui/icons/Work';
+import { orange } from '@material-ui/core/colors';
+import { red } from '@material-ui/core/colors';
+import { blue } from '@material-ui/core/colors';
+import { purple } from '@material-ui/core/colors';
 
-const NameIcon = <AccountCircleIcon fontSize= "large" />
-const BirthIcon = <CakeIcon fontSize= "large" />
-const UnivIcon = <SchoolIcon fontSize= "large" />
-const CareerIcon = <WorkIcon fontSize= "large" />
+
+const NameIcon = <AccountCircleIcon fontSize= "large" style={{ color: orange[500] }} />
+const BirthIcon = <CakeIcon fontSize= "large" style={{ color: red[500] }} />
+const UnivIcon = <SchoolIcon fontSize= "large" style={{ color: blue[500] }} />
+const CareerIcon = <WorkIcon fontSize= "large" style={{ color: purple[500] }}/>
 
 const AboutItems = [
     {title: "Name", text: "Soichiro Ono", icon: NameIcon },
