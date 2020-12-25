@@ -20,7 +20,7 @@ function Work(props){
                             <div className = "work-content">
                                 <img  src={item.image} className = "work-image"/>
                                 <h2>{item.title}</h2>
-                                <span>Skill：{item.skill}</span><br />
+                                <span>Main-Skill：{item.skill}</span><br />
                                 <div className = "button-contents">
                                     <Button variant="contained" color="secondary" href= {item.web}>Web</Button>
                                     <Button variant="contained" color="primary" href= {item.git}>Github</Button>
