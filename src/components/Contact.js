@@ -2,12 +2,12 @@ import React from 'react';
 import Title from './Title.js';
 
 import {ReactComponent as Github} from '../images/github-icon.svg';
-import {ReactComponent as Gmail} from '../images/gmail.svg';
-import {ReactComponent as Wantedly} from '../images/wantedly_logo.svg';
+import {ReactComponent as Gmail} from '../images/google-gmail.svg';
+import {ReactComponent as Wantedly} from '../images/wantedly_mark.svg';
 
 const ContactItems = [
-    {title: "Github", text: "OnoS07", image: Github},
-    {title: "Wantedly", text: "Active", image: Wantedly},
+    {title: "Github", text: "OnoS07", image: Github, link: "https://github.com/OnoS07"},
+    {title: "Wantedly", text: "Active", image: Wantedly, link: "https://www.wantedly.com/users/140120863"},
     {title: "Gmail", text: "soichrooono@gmail.com", image: Gmail }
 ]
 
@@ -19,7 +19,9 @@ function Contact(props){
                     {
                         ContactItems.map(item => (
                             <div className = "contact-content">
-                                <item.image className="image" /><br />
+                                <a href= {item.link} rel="noopener noreferrer">
+                                    <item.image className="image" />
+                                </a><br />
                                 <h3>{item.title}</h3>
                                 <span>{item.text}</span>
                             </div>
