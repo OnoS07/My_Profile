@@ -122,3 +122,15 @@ a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 200px;
 }
+
+.work-content{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 500px;
+    height: 300px;
+}
+
+.work-image{
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+}
