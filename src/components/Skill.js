@@ -15,6 +15,8 @@ import {ReactComponent as MySQL} from '../images/mysql.svg';
 import {ReactComponent as Github} from '../images/github-icon.svg';
 import {ReactComponent as VScode } from '../images/visual-studio-code.svg';
 import {ReactComponent as Slack } from '../images/slack-icon.svg';
+import {ReactComponent as PHP } from '../images/php.svg';
+import {ReactComponent as Laravel } from '../images/laravel.svg';
 
 const ThreeStar = <Rating value={3} max={3} readOnly />
 const TwoStar = <Rating value={2} max={3} readOnly />
@@ -28,9 +30,11 @@ const SkillItems = [
     {name: "React", image: ReactIcon, raty: TwoStar},
     {name: "Ruby", image: Ruby, raty: ThreeStar},
     {name: "Rails", image: Rails, raty: ThreeStar},
-    {name: "AWS", image: AWS, raty: TwoStar},
-    {name: "Docker", image: Docker, raty: OneStar},
-    {name: "CircleCI", image: CircleCI, raty: OneStar},
+    {name: "PHP", image: PHP, raty: TwoStar},
+    {name: "Laravel", image: Laravel, raty: TwoStar},
+    {name: "AWS", image: AWS, raty: OneStar},
+    {name: "Docker", image: Docker, raty: TwoStar},
+    {name: "CircleCI", image: CircleCI, raty: TwoStar},
     {name: "MySQL", image: MySQL, raty: TwoStar},
     {name: "Github", image: Github, raty: ThreeStar},
     {name: "VScode", image: VScode, raty: TwoStar},
